@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-hotel-dark: #0f172a;
+  --color-hotel-gold: #d4af37;
+  --color-hotel-light: #f8fafc;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-hotel-light);
+    color: var(--color-hotel-dark);
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
